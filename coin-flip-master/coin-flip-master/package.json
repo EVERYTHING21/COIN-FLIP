@@ -1,0 +1,25 @@
+{
+  "name": "coin-flip",
+  "version": "1.0.0",
+  "description": "A Random Number Generator Function",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "node_modules/.bin/tsc",
+    "dev": "npm run compile && node dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisGlez/coin-flip.git"
+  },
+  "author": "Alexis Gonzalez Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisGlez/coin-flip/issues"
+  },
+  "homepage": "https://github.com/AlexisGlez/coin-flip#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "typescript": "^3.4.5"
+  }
+}
